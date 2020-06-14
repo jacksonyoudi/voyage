@@ -10,7 +10,8 @@
 作用：
     
     数据持久化
-    数据共享
+    容器和宿主机数据共享
  
  docker run -d  -v /host_path:/container_path images_name
+ docker run -d  -v /host_path:/container_path:ro images_name
  
