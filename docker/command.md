@@ -15,3 +15,6 @@
  docker run -d  -v /host_path:/container_path images_name
  docker run -d  -v /host_path:/container_path:ro images_name
  
+ 
+ ### Dockerfile
+ 
