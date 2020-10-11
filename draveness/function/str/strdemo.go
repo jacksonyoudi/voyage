@@ -40,7 +40,21 @@ strings.EqualFold("abc", "ABC")
 
 13. strings.Replace(str, s)
 
-14.
+14. strings.Split(str, s)
+
+15. strings.ToLower(str)
+
+17. strings.TrimSpace(str)
+
+18. strings.Trim(str, s)
+
+strings.TrimLeft(str, s)
+strings.TrimRight(str, s)
+
+20. strings.HasSuffix(str,s)
+strings.HasPrefix(str,s)
+
+
 
 */
 func main() {
