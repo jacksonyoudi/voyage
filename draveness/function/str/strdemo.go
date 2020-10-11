@@ -34,6 +34,14 @@ strconv.FormatInt(int64(i), 16)
 strings.EqualFold("abc", "ABC")
 
 11. strings.Index(s, str)
+
+12. strings.LastIndex(str, s)
+
+
+13. strings.Replace(str, s)
+
+14.
+
 */
 func main() {
 	i := len("a")
