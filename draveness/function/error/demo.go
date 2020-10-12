@@ -7,6 +7,7 @@ func test() {
 		err := recover()
 		if err != nil {
 			fmt.Println(err)
+			// 这里可以将错误代码抛出去
 		}
 	}()
 
