@@ -19,7 +19,5 @@ func test() {
 
 func main() {
 	test()
-
-
 	fmt.Println("main() ....")
 }
