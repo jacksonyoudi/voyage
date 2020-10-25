@@ -5,6 +5,7 @@ import (
 	"strconv"
 	"strings"
 	"time"
+	"github.com/silentred/gid"
 )
 
 func main() {
@@ -15,9 +16,16 @@ func main() {
 		id := GoID()
 		println(id)
 
+		a := gid.Get()
+		println(a)
+
 	}()
 	id := GoID()
 	println(id)
+
+	b := gid.Get()
+	println(b)
+
 	time.Sleep(10 * time.Second)
 
 }
