@@ -1,4 +1,4 @@
-package Once
+package main
 
 import "time"
 
