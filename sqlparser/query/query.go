@@ -73,10 +73,10 @@ type Condition struct {
 
 type Query struct {
 	Type       Type
-	TableName  string
-	Conditions []Condition
-	Updates    map[string]string
+	TableName  string            // 表名
+	Conditions []Condition       // 条件集合
+	Updates    map[string]string // 更新字段的 key与value
 	Inserts    [][]string
 	Fields     []string          // Used for SELECT (i.e. SELECTed field names) and INSERT (INSERTEDed field names)
-	Aliases    map[string]string // as
+	Aliases    map[string]string // 别名
 }

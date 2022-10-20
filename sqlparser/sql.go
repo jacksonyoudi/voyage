@@ -39,10 +39,10 @@ const (
 )
 
 type parser struct {
-	i               int
-	sql             string
-	step            step
-	query           *query.Query
+	i               int          // 当前所在查询字符串中的位置
+	sql             string       // 原sql
+	step            step         // 状态机的步骤
+	query           *query.Query // 解析后的结构体
 	err             error
 	nextUpdateField string
 }
